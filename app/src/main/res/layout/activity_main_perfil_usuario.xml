@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_perfil_usuario">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="174dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="           Nome"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName15"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="                                 Email"
+        android:inputType="textPersonName"
+        android:textSize="9sp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12"
+        tools:layout_editor_absoluteX="127dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="                                 Nome"
+        android:inputType="textPersonName"
+        android:textSize="9sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:layout_editor_absoluteX="127dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="272dp"
+        android:layout_height="220dp"
+        app:srcCompat="@drawable/ic_baseline_account_circle_24"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="174dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="           Nome"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
